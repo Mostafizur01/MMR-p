@@ -1,6 +1,7 @@
 import React from 'react'
 import './assets/Home.css'
 import Typewriter from 'typewriter-effect';
+import myphoto from '../public/Gemini_Generated_Image_dyc36xdyc36xdyc3.png'
 
 function Home() {
   return (
@@ -27,7 +28,7 @@ function Home() {
         </div>
       </div>
       <div className="rightsite">
-        <img src="./public\Gemini_Generated_Image_dyc36xdyc36xdyc3.png" alt="not found" />
+        <img src={myphoto} alt="not found" />
         <h1>
           MD MOSTAFIZUR RAHMAN <br />
             (MMR)

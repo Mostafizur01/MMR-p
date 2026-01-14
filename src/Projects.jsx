@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './assets/Projects.css';
+import projectPhoto from '../public/Screenshot 2026-01-13 231154.png'
 
 const FeaturedProject = () => {
   return (
@@ -50,7 +51,7 @@ const FeaturedProject = () => {
         <div className="card-visual">
           <div className="mockup-container">
             <div className="glass-overlay"></div>
-            <img src="./public\Screenshot 2026-01-13 231154.png" className='img0' alt="Institute Website Mockup" />
+            <img src={projectPhoto} className='img0' alt="Institute Website Mockup" />
           </div>
         </div>
       </motion.div>
