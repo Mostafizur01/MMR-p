@@ -70,6 +70,7 @@
 @media (max-width: 768px) {
   #experience{
     height: auto;
+    overflow-x: hidden;
   }
   .timeline-container {
     padding-left: 40px;

@@ -134,6 +134,7 @@ body {
 
 @media (max-width: 900px) {
     #projects {
+        overflow-x: hidden;
         height: auto;
         width: 100%;
     }

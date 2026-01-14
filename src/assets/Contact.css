@@ -109,4 +109,7 @@ font-family: Arial, sans-serif;
 /* Responsive */
 @media (max-width: 850px) {
     .contact-grid { grid-template-columns: 1fr; }
+    #contact{
+        overflow-x: hidden;
+    }
 }

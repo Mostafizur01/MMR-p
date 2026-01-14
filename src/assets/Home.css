@@ -161,6 +161,7 @@ body {
         text-align: center;
         height: auto; 
         padding-top: 20px;
+        overflow-x: hidden;
     }
 
     .leftsite, .rightsite {
@@ -195,6 +196,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    #home{
+        overflow-x: hidden;
+    }
     .hero-content h1 {
         font-size: 2.2rem;
     }
