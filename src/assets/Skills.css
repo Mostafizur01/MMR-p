@@ -92,6 +92,9 @@ font-family: Arial, sans-serif;
 }
 
 @media (max-width: 768px) {
+    #skills{
+        height: auto;
+    }
     .skills-title {
         font-size: 2rem; 
         margin-bottom: 30px;
@@ -116,6 +119,9 @@ font-family: Arial, sans-serif;
 }
 
 @media (max-width: 480px) {
+    #skills{
+       height: auto;
+    }
     .skills-title {
         font-size: 1.7rem;
     }
