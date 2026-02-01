@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
             
             <div className="social-links">
-              <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noreferrer" className="social-icon linkedin">
+              <a href="https://www.linkedin.com/in/md-mostafizur-rahman-756570351" target="_blank" rel="noreferrer" className="social-icon linkedin">
                 <FaLinkedin />
               </a>
               <a href="https://wa.me/8801893583621" target="_blank" rel="noreferrer" className="social-icon whatsapp">

@@ -127,32 +127,51 @@ body {
 } */
 
 .rightsite {
-    position: relative; /* Container needs relative for absolute children */
+    position: relative;
     height: 600px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightsite {
+    position: relative;
+    width: 50%;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
 
 .rightsite img {
-    width: 400px;
+    width: 500px;
     height: auto;
     border-radius: 500px 900px 100px 100px;
     position: absolute;
-    bottom: 0;
-    z-index: 20; /* Image sits in the middle layer */
+    bottom: 10rem;
+    z-index: 20; 
 }
 
-.rightsite h1{
-    position: relative;
-    bottom: 0;
+.rightsite h1 {
+    position: absolute;
+    bottom: 35rem;
     font-size: 40px;
     text-align: center;
-    z-index: 70;
-    transform: translateY(200px);
+    transform: translateY(400px);
+    margin: 0;
+    /* white-space: nowrap; */
+}
+
+.text-bg {
+    z-index: 10;
+    color: white;
+    -webkit-text-stroke: 0;
+}
+
+.text-stroke {
+    z-index: 30;
     -webkit-text-stroke: 0.6px white;
     -webkit-text-fill-color: transparent;
 }
-
 
 
 @media (max-width: 768px) {
